@@ -1,15 +1,12 @@
 #include <iostream>
-#include "packages/package.h"
-#include "classes/headers/Person.h"
-#include "classes/headers/Student.h"
-#include "classes/headers/Professor.h"
-
+#include <Person.h>
+#include <package.h>
 using namespace std;
-
+// New Window
 int main() {
+    print("Good");
     // print("Good");
-    // print("Good");
-    // Person p("Name", "Address", 10);
+    Person p("Name", "Address", 10);
 
     // int x = 10;
     // cout << "Good" << endl;
